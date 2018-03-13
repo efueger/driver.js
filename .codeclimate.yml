@@ -1,4 +1,5 @@
 version: "2"
-plugins:
-  eslint: enable
-  channel: "eslint-4"
+plugins: 
+  eslint:
+    enabled: true
+    channel: "eslint-4"
