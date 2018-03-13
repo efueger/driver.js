@@ -1,20 +1,13 @@
 {
-  "extends": "airbnb-base",
-  "env": {
-    "browser": true
-  },
-  "rules": {
-    "no-console": "off",
-    "no-underscore-dangle": "off",
-    "no-plusplus": "off",
-    "no-cond-assign": "off",
-    "func-names": "off",
-    "no-bitwise": "off",
-    "class-methods-use-this": "off",
-    "no-param-reassign": [
-      "off"
+    "extends": "plugin:security/recommended",
+    "plugins": [
+        "security"
     ],
-    "max-len": "off",
-    "no-multi-spaces": "off"
-  }
+    "parserOptions": {
+        "ecmaVersion": 6
+    },
+    "rules": {
+        "semi": 2,
+        "security/detect-object-injection": 0
+    }
 }
