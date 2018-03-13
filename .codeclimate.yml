@@ -1,4 +1,4 @@
+version: "2"
 plugins:
   eslint: enable
-  config:
-    channel: "eslint-4"
+  channel: "eslint-4"
